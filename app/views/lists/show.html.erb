@@ -1,0 +1,8 @@
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title"><%= @list.name %></h5>
+    <% @list.bookmarks.each do |bookmark| %>
+    <h2> Comment <%= bookmark.comment %></h2>
+    <% end %>
+  </div>
+</div>
