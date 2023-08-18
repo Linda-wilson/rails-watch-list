@@ -8,8 +8,9 @@ class ListsController < ApplicationController
   end
 
   def show
-    raise
+
     @list = List.find(params[:id])
+    #raise
   end
 
   def create
